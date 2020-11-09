@@ -1,0 +1,3 @@
+public class InnerRightPrt implements Product3 { 
+   //...
+}

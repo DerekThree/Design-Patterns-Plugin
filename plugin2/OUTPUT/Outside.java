@@ -1,0 +1,3 @@
+public class Outside implements Product2 { 
+   //...
+}

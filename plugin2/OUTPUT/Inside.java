@@ -1,0 +1,3 @@
+public class Inside implements Product1 { 
+   //...
+}

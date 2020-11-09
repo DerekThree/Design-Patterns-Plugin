@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>org.example.plugin2</id>
+    <name>DePaCoG</name>
+    <vendor email="dochal2@uic.edu" url="http://www.uic.edu">Derek Ochal</vendor>
+
+    <description><![CDATA[
+    Code generator plugin for CS474 home work 2
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <group id="theGroup" text="DePaCoG" description="Generates design patterns">
+            <add-to-group group-id="MainMenu" anchor="last" />
+            <action class="Facade.PluginMenu" id="Actions.HelloAction" text="Menu" />
+        </group>
+    </actions>
+</idea-plugin>

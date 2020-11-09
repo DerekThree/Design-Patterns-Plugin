@@ -1,0 +1,3 @@
+public class LeftSide implements Product1 { 
+   //...
+}

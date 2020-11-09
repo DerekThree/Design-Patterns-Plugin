@@ -1,0 +1,3 @@
+public class MiddlePart implements Product2 { 
+   //...
+}
